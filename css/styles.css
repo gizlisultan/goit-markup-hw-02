@@ -1,0 +1,138 @@
+:root {
+  --main-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --main-background-color: #ffffff;
+  --secundary-background-color: #e5e5e5;
+  --accent: #4d5ae5;
+}
+/*Header*/
+header {
+  background-color: #ffffff;
+}
+/*Body*/
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+/*Logo*/
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  text-decoration: none;
+}
+.logo .logo-one {
+  color: blue;
+}
+.logo .logo-two {
+  color: black;
+}
+/* Site nav*/
+.site-nav a {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent);
+}
+
+/*Contacts*/
+.contacts a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.contacts a:hover,
+a:focus {
+  color: var(--accent);
+}
+/*Hero*/
+.hero {
+  text-align: center;
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+/*Hero Button*/
+.hero-button {
+  color: var(--secundary-background-color);
+  background-color: var(--accent);
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero-button {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.features {
+  display: none;
+}
+h2 {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+h3 {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+/*What we are doing*/
+.services {
+  text-align: center;
+}
+/*Our Team*/
+.our-team {
+  background-color: var(--secundary-background-color);
+}
+.team {
+  text-align: center;
+}
+
+/*Filter*/
+.filter button {
+  color: var(--accent);
+  background-color: #e7e9fc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.filter button:hover,
+button:focus {
+  color: #f4f4fd;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.page-footer {
+  color: #f4f4fd;
+  background-color: var(--secondary-text-color);
+}
+.page-footer .logo-two {
+  color: #f4f4fd;
+}
