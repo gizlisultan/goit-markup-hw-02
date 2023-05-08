@@ -32,12 +32,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color-scheme: #4d5ae5;
+  color: var(--accent);
 }
-header .studio a {
-  color: #2e2f42;
+header span {
+  color: var(--secondary-text-color);
 }
-footer .studio a {
+footer .studio {
   color: #f4f4fd;
 }
 .list {
@@ -53,8 +53,10 @@ footer .studio a {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.studio a:hover,
-a:focus {
+.studio a:hover {
+  color: #404bbf;
+}
+.studio a:focus {
   color: #404bbf;
 }
 .portfolio a {
@@ -84,6 +86,26 @@ a:focus {
 .address {
   font-style: normal;
 }
+.mail a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mail a:hover,
+a:focus {
+  color: #404bbf;
+}
+.phone a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.phone a:hover,
+a:focus {
+  color: #404bbf;
+}
 /*Hero*/
 .hero {
   color: #ffffff;
@@ -108,8 +130,10 @@ a:focus {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-button :hover,
-:focus {
+.hero-button :hover {
+  background-color: #404bbf;
+}
+.hero-button :focus {
   background-color: #404bbf;
 }
 .hero-button {
@@ -144,18 +168,10 @@ h3 {
 .team {
   text-align: center;
 }
-.mark {
+.colleagues {
   background-color: #ffffff;
 }
-.tom {
-  background-color: #ffffff;
-}
-.camila {
-  background-color: #ffffff;
-}
-.daniel {
-  background-color: #ffffff;
-}
+
 .paragraph {
   color: var(--main-text-color);
   font-size: 16px;
