@@ -4,6 +4,7 @@
   --main-background-color: #ffffff;
   --secundary-background-color: #e5e5e5;
   --accent: #4d5ae5;
+  --button-background-color: #f4f4fd;
 }
 /*Header*/
 header {
@@ -13,59 +14,81 @@ header {
 body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
-ul {
-  list-style: none;
-}
-ul a {
-  text-decoration: none;
-}
+
+/*Site nav*/
 /*Logo*/
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color-scheme: #4d5ae5;
+}
+header .studio {
+  color: #2e2f42;
+}
+footer .studio {
+  color: #f4f4fd;
+}
+.list {
+  list-style: none;
+}
+.link {
   text-decoration: none;
 }
-.logo .logo-one {
-  color: blue;
-}
-.logo .logo-two {
-  color: black;
-}
-/* Site nav*/
-.site-nav a {
-  color: var(--secondary-text-color);
+.studio a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--accent);
+.studio a:hover,
+a:focus {
+  color: #404bbf;
 }
-
-/*Contacts*/
-.contacts a {
-  color: var(--main-text-color);
-  text-decoration: none;
+.portfolio a {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
 }
-.contacts a:hover,
+.portfolio a:hover,
 a:focus {
-  color: var(--accent);
+  color: #404bbf;
+}
+.contacts-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.contacts-nav a:hover,
+a:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
 }
 /*Hero*/
 .hero {
+  color: #ffffff;
+  background-color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-text {
@@ -76,30 +99,39 @@ a:focus {
 }
 /*Hero Button*/
 .hero-button {
-  color: var(--secundary-background-color);
+  color: #ffffff;
   background-color: var(--accent);
+  font-family: "Roboto" sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+.hero-button :hover,
+:focus {
+  background-color: #404bbf;
 }
 .hero-button {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
 }
-.features {
-  display: none;
-}
+
 h2 {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 h3 {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /*What we are doing*/
 .services {
@@ -107,32 +139,52 @@ h3 {
 }
 /*Our Team*/
 .our-team {
-  background-color: var(--secundary-background-color);
+  background-color: #f4f4fd;
 }
 .team {
   text-align: center;
+}
+.mark {
+  background-color: #ffffff;
+}
+.tom {
+  background-color: #ffffff;
+}
+.camila {
+  background-color: #ffffff;
+}
+.daniel {
+  background-color: #ffffff;
+}
+.paragraph {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
 }
 
 /*Filter*/
 .filter button {
   color: var(--accent);
-  background-color: #e7e9fc;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--button-background-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-style: normal;
   font-weight: 500;
 }
 
 .filter button:hover,
 button:focus {
-  color: #f4f4fd;
+  color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
 }
-.page-footer {
-  color: #f4f4fd;
-  background-color: var(--secondary-text-color);
-}
-.page-footer .logo-two {
-  color: #f4f4fd;
+.filter h2 {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
