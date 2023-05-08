@@ -62,14 +62,14 @@ footer .studio {
 .address {
   font-style: normal;
 }
-.contact a {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.contact a:hover,
-a:focus {
+.contact:hover,
+.contac:focus {
   color: #404bbf;
 }
 
@@ -95,16 +95,9 @@ a:focus {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-button :hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
-}
-.hero-button :focus {
-  background-color: #404bbf;
-}
-.hero-button {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 h2 {
@@ -127,13 +120,16 @@ h3 {
   text-align: center;
 }
 /*Our Team*/
+.list-item {
+  background-color: #ffffff;
+}
 .our-team {
   background-color: #f4f4fd;
 }
 .team {
   text-align: center;
 }
-.colleagues {
+.our-team.colleagues {
   background-color: #ffffff;
 }
 
