@@ -34,7 +34,7 @@ body {
   text-decoration: none;
   color: var(--accent);
 }
-header span {
+header .studio {
   color: var(--secondary-text-color);
 }
 footer .studio {
@@ -46,74 +46,39 @@ footer .studio {
 .link {
   text-decoration: none;
 }
-.studio a {
+.site-nav.list a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.studio a:hover {
+.site-nav a:hover {
   color: #404bbf;
 }
-.studio a:focus {
-  color: #404bbf;
-}
-.portfolio a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.portfolio a:hover,
-a:focus {
-  color: #404bbf;
-}
-.contacts-nav a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.contacts-nav a:hover,
-a:focus {
+.site-nav a:focus {
   color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.mail a {
+.contact a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.mail a:hover,
+.contact a:hover,
 a:focus {
   color: #404bbf;
 }
-.phone a {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-.phone a:hover,
-a:focus {
-  color: #404bbf;
-}
+
 /*Hero*/
 .hero {
   color: #ffffff;
   background-color: var(--secondary-text-color);
   letter-spacing: 0.02em;
   text-align: center;
-}
-.hero-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
